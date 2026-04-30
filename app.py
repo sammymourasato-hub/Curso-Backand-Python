@@ -30,8 +30,8 @@ def opcao_invalida():
 
 def cadastrar_novo_restaurante():
     os.system('cls')
-    print('Cadastr de novos resaurantes\n')
-    nome_restaurante = input('Digite o nome do restataurante que deseja cadastrar: ')
+    print('Cadastro de novos resaurantes\n')
+    nome_restaurante = input('Digite o nome do restaurante que deseja cadastrar: ')
     restaurantes.append(nome_restaurante)
     print(f'O restaurante {nome_restaurante} foi cadastrado com sucesso!\n')
     input('Digite uma tecla para voltar par ao menu principal: ')
