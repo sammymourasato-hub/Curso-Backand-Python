@@ -1,6 +1,6 @@
 import os
 
-restaurantes = []w
+restaurantes = []
 
 def exibir_nome_do_programa():
     print("""
